@@ -1,0 +1,256 @@
+
+portraits = {
+
+	mg_1 = { texturefile = "gfx/models/portraits/mg/mg_1.dds" }
+	mg_2 = { texturefile = "gfx/models/portraits/mg/mg_2.dds" }
+	mg_3 = { texturefile = "gfx/models/portraits/mg/mg_3.dds" }
+	mg_4 = { texturefile = "gfx/models/portraits/mg/mg_4.dds" }
+	mg_5 = { texturefile = "gfx/models/portraits/mg/mg_5.dds" }
+	mg_6 = { texturefile = "gfx/models/portraits/mg/mg_6.dds" }
+	mg_7 = { texturefile = "gfx/models/portraits/mg/mg_7.dds" }
+	mg_8 = { texturefile = "gfx/models/portraits/mg/mg_8.dds" }
+	mg_9 = { texturefile = "gfx/models/portraits/mg/mg_9.dds" }
+	mg_10 = { texturefile = "gfx/models/portraits/mg/mg_10.dds" }
+	mg_11 = { texturefile = "gfx/models/portraits/mg/mg_11.dds" }
+	mg_12 = { texturefile = "gfx/models/portraits/mg/mg_12.dds" }
+	mg_13 = { texturefile = "gfx/models/portraits/mg/mg_13.dds" }
+	mg_14 = { texturefile = "gfx/models/portraits/mg/mg_14.dds" }
+	mg_15 = { texturefile = "gfx/models/portraits/mg/mg_15.dds" }
+	mg_16 = { texturefile = "gfx/models/portraits/mg/mg_16.dds" }
+	mg_17 = { texturefile = "gfx/models/portraits/mg/mg_17.dds" }
+	mg_18 = { texturefile = "gfx/models/portraits/mg/mg_18.dds" }
+	mg_19 = { texturefile = "gfx/models/portraits/mg/mg_19.dds" }
+	mg_20 = { texturefile = "gfx/models/portraits/mg/mg_20.dds" }
+	mg_21 = { texturefile = "gfx/models/portraits/mg/mg_21.dds" }
+	mg_22 = { texturefile = "gfx/models/portraits/mg/mg_22.dds" }
+	mg_23 = { texturefile = "gfx/models/portraits/mg/mg_23.dds" }
+	mg_24 = { texturefile = "gfx/models/portraits/mg/mg_24.dds" }
+	mg_25 = { texturefile = "gfx/models/portraits/mg/mg_25.dds" }
+	mg_26 = { texturefile = "gfx/models/portraits/mg/mg_26.dds" }
+	mg_27 = { texturefile = "gfx/models/portraits/mg/mg_27.dds" }
+	mg_28 = { texturefile = "gfx/models/portraits/mg/mg_28.dds" }
+	mg_29 = { texturefile = "gfx/models/portraits/mg/mg_29.dds" }
+	mg_30 = { texturefile = "gfx/models/portraits/mg/mg_30.dds" }
+	mg_31 = { texturefile = "gfx/models/portraits/mg/mg_31.dds" }
+	mg_32 = { texturefile = "gfx/models/portraits/mg/mg_32.dds" }
+	mg_33 = { texturefile = "gfx/models/portraits/mg/mg_33.dds" }
+	mg_34 = { texturefile = "gfx/models/portraits/mg/mg_34.dds" }
+	mg_114514 = { texturefile = "gfx/models/portraits/mg/mg_114514_Karl_Doenitz.dds" }
+}
+
+portrait_groups = {
+	mg = {
+		default = mg_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					mg_1
+					mg_2
+					mg_3
+					mg_4
+					mg_5
+					mg_6
+					mg_7
+					mg_8
+					mg_9
+					mg_10
+					mg_11
+					mg_12
+					mg_13
+					mg_14
+					mg_15
+					mg_16
+					mg_17
+					mg_18
+					mg_19
+					mg_20
+					mg_21
+					mg_22
+					mg_23
+					mg_24
+					mg_25
+					mg_26
+					mg_27
+					mg_28
+					mg_29
+					mg_30
+					mg_31
+					mg_32
+					mg_33
+					mg_34
+					mg_114514
+				}
+			}
+		}
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					mg_1
+					mg_2
+					mg_3
+					mg_4
+					mg_5
+					mg_6
+					mg_7
+					mg_8
+					mg_9
+					mg_10
+					mg_11
+					mg_12
+					mg_13
+					mg_14
+					mg_15
+					mg_16
+					mg_17
+					mg_18
+					mg_19
+					mg_20
+					mg_21
+					mg_22
+					mg_23
+					mg_24
+					mg_25
+					mg_26
+					mg_27
+					mg_28
+					mg_29
+					mg_30
+					mg_31
+					mg_32
+					mg_33
+					mg_34
+					mg_114514
+				}
+			}
+		}		
+		
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					mg_1
+					mg_2
+					mg_3
+					mg_4
+					mg_5
+					mg_6
+					mg_7
+					mg_8
+					mg_9
+					mg_10
+					mg_11
+					mg_12
+					mg_13
+					mg_14
+					mg_15
+					mg_16
+					mg_17
+					mg_18
+					mg_19
+					mg_20
+					mg_21
+					mg_22
+					mg_23
+					mg_24
+					mg_25
+					mg_26
+					mg_27
+					mg_28
+					mg_29
+					mg_30
+					mg_31
+					mg_32
+					mg_33
+					mg_34
+					mg_114514
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					mg_1
+					mg_2
+					mg_3
+					mg_4
+					mg_5
+					mg_6
+					mg_7
+					mg_8
+					mg_9
+					mg_10
+					mg_11
+					mg_12
+					mg_13
+					mg_14
+					mg_15
+					mg_16
+					mg_17
+					mg_18
+					mg_19
+					mg_20
+					mg_21
+					mg_22
+					mg_23
+					mg_24
+					mg_25
+					mg_26
+					mg_27
+					mg_28
+					mg_29
+					mg_30
+					mg_31
+					mg_32
+					mg_33
+					mg_34
+					mg_114514
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					mg_1
+					mg_2
+					mg_3
+					mg_4
+					mg_5
+					mg_6
+					mg_7
+					mg_8
+					mg_9
+					mg_10
+					mg_11
+					mg_12
+					mg_13
+					mg_14
+					mg_15
+					mg_16
+					mg_17
+					mg_18
+					mg_19
+					mg_20
+					mg_21
+					mg_22
+					mg_23
+					mg_24
+					mg_25
+					mg_26
+					mg_27
+					mg_28
+					mg_29
+					mg_30
+					mg_31
+					mg_32
+					mg_33
+					mg_34
+					mg_114514
+				}
+			}
+		}
+	}
+}
